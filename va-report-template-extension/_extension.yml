@@ -1,0 +1,11 @@
+title: "VA Report Template Extension"
+version: 0.1.0
+quarto-required: ">=1.5.0"
+
+contributes:
+  templates:
+    - id: va-report
+      title: "VA Report Starter"
+      description: "Starter project with VA Lab theme (tabs styled, code folded)"
+      # The directory with the files to copy into the new project
+      path: templates/va-report

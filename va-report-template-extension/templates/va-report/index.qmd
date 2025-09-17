@@ -1,5 +1,5 @@
 ---
-title: "Cardiorespiratory Physiology Laboratory"
+title: "VA Report Starter"
 author: "Your Team"
 format: va-lab-html
 execute:
@@ -7,9 +7,7 @@ execute:
 ---
 
 ::: {.block-bg}
-This starter template uses the **VA Lab** theme.  
-- Code is **collapsed by default** (click *Show code* to expand).  
-- Tabs are styled with the lab’s blue palette.  
+This starter uses the **VA Lab** theme. Code is **collapsed by default** and tabs are styled in the lab blue.
 :::
 
 ## Tabs example
