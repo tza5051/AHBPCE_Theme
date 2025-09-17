@@ -1,0 +1,13 @@
+---
+title: "Single Report"
+author: "Team"
+format: va-lab-html-single
+---
+
+# Single File Example
+
+This file uses the **single-file theme** (va-lab-html-single).
+
+```{r}
+plot(pressure)
+```

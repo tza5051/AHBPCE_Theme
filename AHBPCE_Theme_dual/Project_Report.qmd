@@ -1,0 +1,13 @@
+---
+title: "Project Report"
+author: "Team"
+format: va-lab-html
+---
+
+# Project Example
+
+This file uses the **project theme** (va-lab-html).
+
+```{r}
+plot(cars)
+```
