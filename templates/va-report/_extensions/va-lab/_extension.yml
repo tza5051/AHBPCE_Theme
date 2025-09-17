@@ -1,0 +1,26 @@
+title: "VA Lab Quarto Format"
+version: 0.1.0
+quarto-required: ">=1.5.0"
+
+contributes:
+  formats:
+    va-lab-html:
+      inherit: html
+      theme: [cosmo, va.scss]
+      toc: true
+      toc-title: "On this page"
+      toc-location: left
+      smooth-scroll: true
+      number-sections: false
+
+      title-block-banner: true
+      title-block-banner-color: "#ffffff"
+      title-block-banner-background: "#0b4a7d"
+
+      code-fold: true
+      code-summary: "Show code"
+      code-overflow: wrap
+      highlight-style: github
+
+      anchor-sections: true
+      link-external-newwindow: true

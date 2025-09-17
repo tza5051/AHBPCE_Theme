@@ -7,5 +7,4 @@ contributes:
     - id: va-report
       title: "VA Report Starter"
       description: "Starter project with VA Lab theme (tabs styled, code folded)"
-      # The directory with the files to copy into the new project
       path: templates/va-report
