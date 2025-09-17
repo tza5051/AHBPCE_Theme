@@ -1,3 +1,4 @@
+// Shared palette
 $va-blue: #0b4a7d;
 $va-blue-dark: #0e2a47;
 $va-gold: #f2c94c;
@@ -10,6 +11,7 @@ $navbar-bg: $va-blue;
 $navbar-dark-color: #ffffff;
 $font-family-sans-serif: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 
+// Title banner gold underline
 .quarto-title-banner .quarto-title .title {
   position: relative;
   padding-bottom: .35rem;
@@ -25,6 +27,7 @@ $font-family-sans-serif: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Ar
   border-radius: 2px;
 }
 
+// Tabset styling
 .panel-tabset > .nav-tabs {
   border-bottom: 2px solid rgba($va-blue, .15);
 }
@@ -45,18 +48,11 @@ $font-family-sans-serif: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Ar
   border-color: rgba($va-blue, .25) rgba($va-blue, .25) transparent;
 }
 
-.details .summary {
-  font-weight: 600;
-  color: $va-blue;
-}
-.details[open] .summary {
-  color: $va-blue-dark;
-}
+// Code folding summary
+.details .summary { font-weight: 600; color: $va-blue; }
+.details[open] .summary { color: $va-blue-dark; }
 
-.callout-note { --bs-callout-color: #0b4a7d; }
-.callout-tip  { --bs-callout-color: #2a9d8f; }
-.callout-caution { --bs-callout-color: #e76f51; }
-
+// Panels & outputs
 .panel-tabset .tab-content,
 div.cell-output {
   background: #fff;
@@ -66,7 +62,7 @@ div.cell-output {
   padding: 1rem 1.25rem;
 }
 
-.section.page-columns .page-columns .column-body > *:has(> .card),
+// Optional soft background block
 .block-bg {
   background: $va-gray;
   padding: 1rem 1.25rem;

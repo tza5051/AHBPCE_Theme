@@ -1,0 +1,12 @@
+---
+title: "Single Demo"
+format: va-lab-html-single
+---
+
+::: {.block-bg}
+Single-file theme demo.
+:::
+
+```{r}
+plot(pressure)
+```

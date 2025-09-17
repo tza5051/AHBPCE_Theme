@@ -1,0 +1,12 @@
+---
+title: "Project Demo"
+format: va-lab-html
+---
+
+::: {.block-bg}
+Project theme demo.
+:::
+
+```{r}
+plot(cars)
+```
