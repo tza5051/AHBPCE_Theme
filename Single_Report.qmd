@@ -1,12 +1,11 @@
 ---
-title: "Single Report"
-author: "Team"
+title: "Single Example"
 format: va-lab-html-single
 ---
 
-# Single File Example
+# Single Report
 
-This file uses the **single-file theme** (va-lab-html-single).
+This is using the **single-file theme**.
 
 ```{r}
 plot(pressure)

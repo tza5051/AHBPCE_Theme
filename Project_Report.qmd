@@ -1,12 +1,11 @@
 ---
-title: "Project Report"
-author: "Team"
+title: "Project Example"
 format: va-lab-html
 ---
 
-# Project Example
+# Project Report
 
-This file uses the **project theme** (va-lab-html).
+This is using the **project theme**.
 
 ```{r}
 plot(cars)
